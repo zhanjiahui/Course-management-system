@@ -1,0 +1,136 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+.body_container
+{
+    width:100%;
+    height:800px;
+    background: url("../images/index.jpg");
+
+}
+.body_container1
+{
+
+    width:100%;
+    height:1100px;
+    background: url("../images/index.jpg");
+    /*opacity: 0.6;*/
+
+
+}
+.body_container2
+{
+
+    width:100%;
+    /*height:1100px;*/
+    background: url("../images/index.jpg");
+    /*opacity: 0.6;*/
+
+
+}
+.body_background
+{
+    background: rgba(255,255,255,0.3);
+    height:1100px;
+    width:100%
+}
+.body_note
+{
+    width: 97%;
+    height: 95%;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: rgba(192,192,192,0.5);
+    float: left;
+    border-radius: 40px;
+}
+.note{
+    margin: 30px;
+    /*background: #d9d7cb;*/
+    background: -webkit-linear-gradient(top,#faf2cc,#d9d7cb);
+    width: 30%;
+    height: 600px;
+    opacity: 0.9;
+    border-radius: 20px;
+    transform: rotate(1deg);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.6);
+    transform-origin: center top;
+}
+.note_icon
+{
+    float: right;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    opacity: 0.9;
+    background: #67b168;
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.6);
+    position: relative;
+}
+.note_class
+{
+    margin:16px;
+    float: left;
+    width: 72%;
+    height: 70px;
+    font-size:25px;
+    /*background: rgba(252,248,227,0.3);*/
+    color: black;
+    text-align: center;
+    padding: 15px;
+    /*box-shadow: 5px 5px 1px 1px rgba(0,0,0,0.6);*/
+}
+.note_teacher
+{
+    float: left;
+    padding-right: 25px;
+    margin-left: 20px;
+}
+.note_class1
+{
+    float: left;
+    width: 90%;
+    height: 150px;
+    background: rgba(149,136,127,0.2);
+   margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    /*padding-top: 120px;*/
+}
+.sousuo form
+{
+
+    float: right;
+    position: relative;
+    margin-right: 30px ;
+    margin-top:  30px ;
+    /*padding: 30px;*/
+}
+.sousuo form input
+{
+    height: 30px;
+    width: 250px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.logo
+{
+    height: 80px;
+    width: 100%;
+    /*background:#a7a191;*/
+    background: -webkit-linear-gradient(top,#95887f,#a09989);
+    /*background: #686763;*/
+    /*opacity: 0.8;*/
+}
+.logo_img
+{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
