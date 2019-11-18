@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="db58184f-bef6-48b7-8192-98a182f2773d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade.html" beforeDir="false" afterPath="$PROJECT_DIR$/grade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/schedule.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome_student.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +20,7 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -88,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -145,22 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -219,7 +199,7 @@
       <workItem from="1573975968213" duration="29000" />
       <workItem from="1573976116514" duration="1317000" />
       <workItem from="1573977727639" duration="6849000" />
-      <workItem from="1574063214972" duration="2390000" />
+      <workItem from="1574063214972" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="Preliminary front-end development">
       <created>1573983478969</created>
@@ -235,11 +215,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573989142579</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Modify the background transparency and optimize&#10;the return button">
+      <created>1574065741698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574065741698</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10585000" />
+    <option name="totallyTimeSpent" value="10843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -261,7 +248,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.2305141" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3283582" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="运行" order="12" />
@@ -284,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Preliminary front-end development" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preliminary front-end development" />
+    <MESSAGE value="Modify the background transparency and optimize&#10;the return button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the background transparency and optimize&#10;the return button" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style_search.css">
@@ -332,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grade.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -355,8 +336,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
