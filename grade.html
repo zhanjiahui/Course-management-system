@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- 搜索框的查找图标 -->
     <link rel="stylesheet" href="css/style_search.css">
+    <script src="js/tableheight.js"></script>
 </head>
-<body>
+<body onload="table_height()">
 <div class="logo" >
     <div class="logo_img">
         <img src="images/logo.png">
@@ -54,8 +55,10 @@
 </nav>
 
 
-<div class="body_container1">
+<div class="body_container2">
     <div class="schedule">
+        <div><span class="remind">弘德明智 博学笃行</span></div>
+        <div><span class="remind2"><center>成绩单</center><br></span></div>
 <table border="1"><tr class="datelisthead">
     <td>课程代码</td><td>课程名称</td><td>课程性质</td><td>成绩</td><td>课程归属</td><td>补考成绩</td><td>重修成绩</td><td>学分</td><td>辅修标记</td>
 </tr><tr class="alt">
@@ -128,7 +131,8 @@
     <td>161130307</td><td>人机交互技术</td><td>限选</td><td>97</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>3.0</td><td>0</td>
 </tr><tr class="alt">
     <td>161130314</td><td>Linux操作系统</td><td>限选</td><td>91</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>3.0</td><td>0</td>
-</tr><tr class="alt">
+</tr>
+    <tr class="alt">
     <td>161130305</td><td>微机原理</td><td>限选</td><td>92</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>5.0</td><td>0</td>
 </tr><tr class="alt">
     <td>160cxcy01</td><td>创新创业教育</td><td>任选</td><td>合格</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>2</td><td>&nbsp;</td>
