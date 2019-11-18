@@ -4026,6 +4026,7 @@ tbody.collapse.in {
 
 .dropup,
 .dropdown {
+  /*color: #0b0b0b;*/
   position: relative;
 }
 
@@ -4866,6 +4867,7 @@ tbody.collapse.in {
     float: left;
   }
   .navbar-nav > li > a {
+    /*color: #0b0b0b;*/
     padding-top: 17.5px;
     padding-bottom: 17.5px;
   }
