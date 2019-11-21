@@ -14,11 +14,9 @@
 {
 
     width:100%;
-    height:1200px;
+    height:1100px;
     background: url("../images/index.jpg");
     /*opacity: 0.6;*/
-
-
 }
 .body_container2
 {
@@ -27,8 +25,6 @@
     /*height:1100px;*/
     background: url("../images/index.jpg");
     /*opacity: 0.6;*/
-
-
 }
 .body_background
 {
@@ -36,7 +32,22 @@
     height:1100px;
     width:100%
 }
-
+.body_note_message_icon
+{
+    border-radius: 50px;
+    width: 80px;
+    height:80px;
+    margin: 20px;
+    float: left;
+}
+.body_note_message_name
+{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+}
 .sousuo form
 {
 
@@ -193,15 +204,62 @@
     top: 0;
     left: 1px;
 }
-.remind
-{
+.remind {
     font-size: 20px;
-    color:#5a1216;
+    color: #5a1216;
 }
-
 .remind2
 {
     font-size: 25px;
     color:#000000;
-
+}
+.modify_message_box
+{
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 30px;
+    float: left;
+    background: rgba(66,57,40,0.5);
+}
+.modify_message
+{
+    width: 100%;
+    height: 60px;
+    background: rgba(66,57,40,0.8);
+    margin-top: 30px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: left;
+    color: white;
+}
+.modify_message:hover
+{
+    width: 103%;
+    height: 60px;
+    background: rgba(66,57,40,0.8);
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    float: left;
+    color: white;
+}
+.modify_change_box
+{
+    width: 70%;
+    height: 600px;
+    margin-left: 40px;
+    border-radius: 30px;
+    margin-top: 40px;
+    float: left;
+    background: rgba(66,57,40,0.5);
+}
+.modify_iframe
+{
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    float: left;
 }

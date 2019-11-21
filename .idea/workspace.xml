@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db58184f-bef6-48b7-8192-98a182f2773d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Adm_manage_students.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modify_information.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tableheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tableheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome_Adm.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome_Adm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome_student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/demo-files/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/demo-files/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/fonts/icomoon_Adm_manage.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/fonts/icomoon_Adm_manage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/fonts/icomoon_Adm_manage.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/fonts/icomoon_Adm_manage.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/selection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icomoon/style_Adm_manage.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="402" column="18" selection-start-line="402" selection-start-column="18" selection-end-line="402" selection-end-column="18" />
+            <state relative-caret-position="1805">
+              <caret line="397" column="24" lean-forward="true" selection-start-line="397" selection-start-column="24" selection-end-line="397" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -76,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="198" column="17" selection-start-line="198" selection-start-column="10" selection-end-line="198" selection-end-column="17" />
+            <state relative-caret-position="485">
+              <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -216,22 +220,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -291,7 +280,7 @@
       <workItem from="1573977727639" duration="6849000" />
       <workItem from="1574063214972" duration="5776000" />
       <workItem from="1574071429016" duration="13860000" />
-      <workItem from="1574316036509" duration="8294000" />
+      <workItem from="1574316036509" duration="8660000" />
     </task>
     <task id="LOCAL-00001" summary="Preliminary front-end development">
       <created>1573983478969</created>
@@ -342,15 +331,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574084882522</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Increased the administrator authority, &#10;my cervical vertebra is failing.">
+      <created>1574325511995</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574325511995</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36125000" />
+    <option name="totallyTimeSpent" value="36491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20129345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -396,7 +391,8 @@
     <MESSAGE value="Modify the background transparency and optimize&#10;the return button 11.8" />
     <MESSAGE value="Added course selection page. I'm very tired" />
     <MESSAGE value="Shit mountain code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Shit mountain code." />
+    <MESSAGE value="Increased the administrator authority, &#10;my cervical vertebra is failing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Increased the administrator authority, &#10;my cervical vertebra is failing." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style_search.css">
@@ -585,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="198" column="17" selection-start-line="198" selection-start-column="10" selection-end-line="198" selection-end-column="17" />
+        <state relative-caret-position="485">
+          <caret line="208" column="17" selection-start-line="208" selection-start-column="17" selection-end-line="208" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -650,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="402" column="18" selection-start-line="402" selection-start-column="18" selection-end-line="402" selection-end-column="18" />
+        <state relative-caret-position="1805">
+          <caret line="397" column="24" lean-forward="true" selection-start-line="397" selection-start-column="24" selection-end-line="397" selection-end-column="24" />
         </state>
       </provider>
     </entry>
