@@ -148,36 +148,50 @@
     opacity: 100%;
     background: rgba(255,255,255,0.3);
 }
-.datelisthead td
+
+.table_grade
 {
-width: 200px;
-    height: 30px;
+    width: 100%;
     text-align: center;
+    height:100px;
+    border: 1px solid #ccc;
 }
-.alt td
+.datelisthead
 {
-    width: 200px;
-    height:30px;
-    text-align: center;
+    background: rgba(204,204,204,0.8);
+}
+.alt
+{
+    background: rgba(249,246,240,0.5);
+}
+.alt :hover
+{
+    background:rgba(247,236,181,0.8);
 }
 .return
 {
-    margin: 30px;
+    margin-left: 30px;
     width: 200px;
     height: 40px;
-    font-size: 25px;
     background: rgba(88, 81, 62, 0.5);
+    box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.6);
+    border: none;
     color: white;
-    text-align: center ;
-    padding-top: 5px;
-    border-radius: 20px;
-    /*border-radius: 20px;*/
-    /*width: 100px;*/
-    /*height: 30px;*/
-    /*background: #D068AD;*/
-    /*opacity: 0.6;*/
-    box-shadow: 5px 5px 2px 1px rgba(256,256,256,0.5);
-    border:none;
+    overflow: hidden;
+    padding: 0;
+    text-transform: uppercase;
+    border-radius: 10em;
+
+}
+.material-design {
+    position: relative;
+}
+.material-design canvas {
+    opacity: 0.25;
+    border-radius: 10em;
+    position: absolute;
+    top: 0;
+    left: 1px;
 }
 .remind
 {

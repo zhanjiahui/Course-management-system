@@ -3696,7 +3696,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default {
   color: #333;
-  background-color: #fff;
+  background-color: #876f69;
   border-color: #ccc;
 }
 .btn-default:focus, .btn-default.focus {
