@@ -263,3 +263,21 @@
     border-radius: 30px;
     float: left;
 }
+
+.codingmonkey
+{
+    width: 80px;
+    height:120px;
+}
+.codingmonkey:hover
+{
+}
+
+.return_top
+{
+    width: 60px;
+    height: 60px;
+    margin-left: 95%;
+    margin-top: 616px;
+    position: fixed;
+}
