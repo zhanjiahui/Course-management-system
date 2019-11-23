@@ -15,6 +15,8 @@
         <!-- 搜索框的查找图标 -->
         <link rel="stylesheet" href="css/style_search.css">
         <link rel="stylesheet" href="css/style2.css">
+        <!--[if IE]鼠标动画-->
+        <script src="js/html5.js"></script>
     </head>
 <body>
 <!--<script>alert(document.documentElement.clientHeight)</script>-->
@@ -70,14 +72,25 @@
     </div>
 </nav>
 
+
+<canvas id="demo-canvas" style="position:absolute"></canvas>
+
+
 <div class="body_container">
+
+
+
     <div class="return_top">
         <a href="#return_button_top">
             <img src="images/codingmonkey.png" class="codingmonkey"> </a>
     </div>
+
     <div class="remind_adm">
-       <span>弘德明志 博学笃行 工作细致 修改严谨</span>
+        <span>欢迎使用山东师范大学教务管理系统管理员端！<br></span>
     </div>
+<!--    <div class="remind_adm1">-->
+<!--        <span>弘德明志 博学笃行</span>-->
+<!--    </div>-->
 <!--    <div class="infrom">-->
 <!--&lt;!&ndash;        <div class="infrom_text">&ndash;&gt;-->
 <!--&lt;!&ndash;            通知&ndash;&gt;-->
@@ -97,7 +110,7 @@
         <div class="meassage_xm"></div>
         <div class="meassage_xm"></div>
 
-        <button class="return">返回</button>
+        <button class="return"><a href="login.html">返回</a></button>
 
     </div>
 
@@ -160,6 +173,11 @@
 
 </div>
 
+
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/rAF.js"></script>
+<script src="js/demo-1.js"></script>
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
 <!-- jQuery Easing -->

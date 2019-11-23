@@ -45,9 +45,7 @@
     width: 80px;
     height:120px;
 }
-.codingmonkey:hover
-{
-}
+
 /*.codingmonkey*/
 /*{*/
 /*    width: 80px;*/
@@ -385,12 +383,25 @@
 }
 
 .remind_adm{
+    float: left;
     padding-top: 50px;
-    padding-left: 30%;
+    padding-left: 10%;
 
+    line-height: 80px;
     font-size: 40px;
-    color:#5a1216;
+    color: #ffffff;
+    /*color:#5a1216;*/
 }
+/*.remind_adm1{*/
+/*    float: left;*/
+/*    !*padding-top: 50px;*!*/
+/*    padding-left: 20%;*/
+
+/*    line-height: 80px;*/
+/*    font-size: 30px;*/
+/*    color: #ffffff;*/
+/*    !*color:#5a1216;*!*/
+/*}*/
 .manage—stu
 {
     padding-left: 10%;
