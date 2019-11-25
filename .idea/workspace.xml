@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db58184f-bef6-48b7-8192-98a182f2773d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/style1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/tableheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tableheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/welcome_Stu.html" beforeDir="false" afterPath="$PROJECT_DIR$/welcome_Stu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +58,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="131" column="35" lean-forward="true" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#h4#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -144,6 +156,7 @@
         <option value="$PROJECT_DIR$/welcome_Stu.html" />
         <option value="$PROJECT_DIR$/css/style2.css" />
         <option value="$PROJECT_DIR$/css/style1.css" />
+        <option value="$PROJECT_DIR$/login.html" />
       </list>
     </option>
   </component>
@@ -168,11 +181,6 @@
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -196,11 +204,11 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Study\HTML5\course\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Study\HTML5\course" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Study\HTML5\course\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574679151790</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="The notification section of the welcome Stu is mainly modified">
+      <created>1574682521558</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574682521558</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53638000" />
+    <option name="totallyTimeSpent" value="54670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -453,7 +468,8 @@
     <MESSAGE value="Did not solve the problem of mouse animation and form conflict" />
     <MESSAGE value="Family is neat." />
     <MESSAGE value="Engineer lv made some optimizations to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Engineer lv made some optimizations to the project" />
+    <MESSAGE value="The notification section of the welcome Stu is mainly modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="The notification section of the welcome Stu is mainly modified" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style_search.css">
@@ -465,18 +481,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="84" selection-start-line="55" selection-start-column="84" selection-end-line="55" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#h4#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -676,20 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tableheight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/welcome_Stu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Stu_my_schedule.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -706,8 +696,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/welcome_Stu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tableheight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="68" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="131" column="35" lean-forward="true" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#h4#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
