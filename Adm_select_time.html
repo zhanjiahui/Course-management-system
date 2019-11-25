@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SDNU-Welcome student</title>
+    <title>修改选课时段</title>
     <link rel="stylesheet" type="text/css" href="css/style1.css">
-    <link rel="stylesheet" type="text/css" href="css/style2.css">
     <!-- Animate.css 滑动-->
     <link rel="stylesheet" href="css/animate.css">
     <!-- Icomoon Icon Fonts 图标-->
@@ -15,15 +14,14 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- 搜索框的查找图标 -->
     <link rel="stylesheet" href="css/style_search.css">
-    <!--    水纹按钮动画-->
-    <script src="js/prefixfree.min_animated_button.js"></script>
+    <link rel="stylesheet" href="css/style_Adm_manage.css">
+    <link rel="stylesheet" href="css/style2.css">
     <!--[if IE]鼠标动画-->
     <script src="js/html5.js"></script>
     <!--[endif]-->
-
-<!--    <link rel="stylesheet" href="css/style_animated_button.css">-->
 </head>
 <body>
+
 <div class="logo" >
     <a name="return_button_top"></a>
     <div class="logo_img">
@@ -38,24 +36,26 @@
     </div>
 </div>
 
-
 <nav class="navbar-default" role="navigation" style="background: #9d6b2e;opacity: 0.7">
+
     <div class="container-fluid">
-        <div class="navbar-header" style="background: #152620;opacity: 0.6">
-            <a class="navbar-brand" href="Stu_my_schedule.html" style="color:white">&nbsp;&nbsp;&nbsp;课表&nbsp;&nbsp;&nbsp;</a>
-        </div>
+        <!--        <div class="navbar-header" style="background: #152620;opacity: 0.6">-->
+        <!--            <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a>-->
+        <!--        </div>-->
         <div>
             <ul class="nav navbar-nav" style="background: #152620;opacity: 0.6">
-                <li class="dropdown"><a href="Stu_select_sourses.html" style="color:white">&nbsp;&nbsp;&nbsp;选课&nbsp;&nbsp;&nbsp;</a></li>
-                <li><a href="Stu_my_grade.html" style="background: #152620;color:white">&nbsp;&nbsp;&nbsp;成绩&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown" style="background: #152620;">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white">
-                        &nbsp;&nbsp;&nbsp;查看已选&nbsp;&nbsp;&nbsp;<b class="caret"></b>
+                <li class="dropdown"><a href="Adm_manage_students.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_teachers.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理教师&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_courses.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理课程&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"  style="color:white">
+                        &nbsp;&nbsp;&nbsp;管理其他&nbsp;&nbsp;&nbsp;
+                        <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="Stu_required_selected.html">必修</a></li>
-                        <li class="divider"></li>
-                        <li><a href="Stu_elective_selected.html">选修</a></li>
+                        <li><a href="#"  style="color:black">修改选课时间</a></li>
+                        <li class="divider" ></li>
+                        <li ><a href="#"  style="color:balck;">修改录入成绩时间</a></li>
                     </ul>
                 </li>
             </ul>
@@ -63,61 +63,51 @@
     </div>
 </nav>
 
-    <div class="body_container">
-        <canvas id="demo-canvas" style="position:absolute"></canvas>
+<div class="return_top">
+    <a href="#return_button_top">
+        <img src="images/codingmonkey.png" class="codingmonkey"> </a>
+</div>
+<div class="body_container1">
+    <div class="body_background3">
+        <!--        <div style="font-size: 40px;margin: auto;padding-top: 40px;padding-left: 20px;color: #5a1216">修改录入成绩时间</div>-->
+        <div class="manage—stu">
 
-        <div class="return_top">
-            <a href="#return_button_top">
-                <img src="images/codingmonkey.png" class="codingmonkey"> </a>
-        </div>
+            <!-- -------------------------------------------------------------->
+            <div class="big">
+                <div class="head">
+                    <span><span class="icon-wrench"></span>&nbsp;修改选课时段</span><br>
+                </div>
+                <div class="formd">
+
+                    <div class="input-group">
+                        <span class="input-group-addon">time</span>
+                        <input type="text" class="form-control" id="name"
+                               placeholder="请输入开始时间"  style="width: 400px">
+                    </div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon">time</span>
+                        <input type="text" class="form-control" id="name"
+                               placeholder="请输入结束时间"  style="width: 400px">
+                    </div>
 
 
-        <div class="infrom">
-            <div class="infrom_text">
-                通知
+                    <center><button type="submit" class="btn btn-default">确认</button></center>
+                    </form>
+                </div>
+
             </div>
-            <div class="inform_content">
-                <ul>
-                    <li><a href="#">2019-2020学年第二学期选课通知已经上传，请同学们查看！</a><br>
-                    </li>
-                    <li><a href="#">2019-2020学年第一学期期末成绩录入已全部完成，请进入确认页面确认成绩！</a><br>
-                    </li>
-                    <li><a href="#">请及时完成教师教学质量评价，以免影响选课！</a><br>
-                    </li>
-                </ul>
-<!--                <a href="#">2019-2020学年第二学期选课通知已经上传，请同学们查看！</a><br>-->
-<!--                <a href="#">2019-2020学年第一学期期末成绩录入已全部完成，请进入确认页面确认成绩！</a><br>-->
-<!--                <a href="#">请及时完成教师教学质量评价，以免影响选课！</a><br>-->
-            </div>
-        </div>
-    <div class="message">
-        <div class="touxiang">
-            <a href="http://www.sdnu.edu.cn/">
-                <img src="index.jpg">
-            </a>
-            <div class="message_">
-               <p>展家慧</p>
-            </div>
-        </div>
-                <div class="meassage_xm">展家慧</div>
-                <div class="meassage_xm">展家慧</div>
-                <div class="meassage_xm">展家慧</div>
-                <div class="meassage_xm">展家慧</div>
-            <!--  js文件和button必须放在一起-->
-            <button class="return  material-design" data-color="#ffffff" onclick="window.location.href='index.html'">返回</button>
-        <script src="js/index_animated_button.js"></script>
-<!--        <button class="btn btn-round color-2 material-design" data-color="#ffffff">返回</button>-->
 
+
+        </div>
     </div>
-
-
-    </div>
-
-
-
-
+</div>
+<!--</div>-->
 <footer id="fh5co-footer">
+    <!--    <canvas id="demo-canvas" style="position:absolute"></canvas>-->
+
     <div class="container">
+
         <div class="row row-bottom-padded-md">
             <div class="col-md-3 col-sm-6 col-xs-12 animate-box">
                 <div class="fh5co-footer-widget">
@@ -167,12 +157,12 @@
     </div>
 </footer>
 
-</div>
+<!--鼠标滑动-->
 <script src="js/TweenLite.min.js"></script>
 <script src="js/EasePack.min.js"></script>
 <script src="js/rAF.js"></script>
 <script src="js/demo-1.js"></script>
-<!-- 代码部分end -->
+<!--结束-->
 <!-- jQuery -->
 <script src="js/jquery.min.js"></script>
 <!-- jQuery Easing -->
