@@ -38,24 +38,25 @@
 
 
 <nav class="navbar-default" role="navigation" style="background: #9d6b2e;opacity: 0.7">
+
     <div class="container-fluid">
         <!--        <div class="navbar-header" style="background: #152620;opacity: 0.6">-->
         <!--            <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a>-->
         <!--        </div>-->
         <div>
             <ul class="nav navbar-nav" style="background: #152620;opacity: 0.6">
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理教师&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理课程&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_students.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_teachers.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理教师&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_courses.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理课程&nbsp;&nbsp;&nbsp;</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"  style="color:white">
                         &nbsp;&nbsp;&nbsp;管理其他&nbsp;&nbsp;&nbsp;
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">修改选课时间</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">修改录入成绩时间</a></li>
+                        <li><a href="#"  style="color:black">修改选课时间</a></li>
+                        <li class="divider" ></li>
+                        <li ><a href="#"  style="color:balck;">修改录入成绩时间</a></li>
                     </ul>
                 </li>
             </ul>
@@ -69,167 +70,178 @@
     <a href="#return_button_top">
         <img src="images/codingmonkey.png" class="codingmonkey"> </a>
 </div>
-<div class="manage—stu">
+<div class="body_container1">
+    <div class="body_background3">
+        <div style="font-size: 40px;margin: auto;padding-top: 40px;padding-left: 20px;color: #5a1216">管理学生</div>
+        <div class="manage—stu">
 
-<!-- --------------------------------   添加学生信息------------------------------>
-    <div class="big">
-        <div class="head">
-        <span><span class="icon-plus"></span>&nbsp;添加学生信息</span><br>
-        </div>
-        <div class="formd">
-        <form class="form-inline" role="form">
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="name"
-                       placeholder="请输入学生姓名">
-            </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="id"
-                       placeholder="请输入学生学号">
-            </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="pw"
-                       placeholder="请输入学生密码">
-            </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="major"
-                       placeholder="请输入专业">
-            </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="class"
-                       placeholder="请输入班级">
-            </div>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox">  确认
-                </label>
-            </div>
-            <button type="submit" class="btn btn-default">添加</button>
-        </form>
-        </div>
+            <!-- --------------------------------   添加学生信息------------------------------>
+            <div class="big">
+                <div class="head">
+                    <span><span class="icon-plus"></span>&nbsp;添加学生信息</span><br>
+                </div>
+                <div class="formd">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="name"
+                                   placeholder="请输入学生姓名" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="id"
+                                   placeholder="请输入学生学号" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="pw"
+                                   placeholder="请输入学生密码" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="major"
+                                   placeholder="请输入专业" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="class"
+                                   placeholder="请输入班级" style="width: 200px">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">  确认
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-default">添加</button>
+                    </form>
+                </div>
 
-    </div>
-    <!-- --------------------------------   删除学生信息------------------------------>
-    <div class="big">
-    <div class="head">
-    <span><span class="icon-minus"></span>&nbsp;删除学生信息</span><br>
-    </div>
-        <div class="formd">
-        <form class="form-inline" role="form">
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="id"
-                       placeholder="请输入学生学号">
             </div>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox">  确认
-                </label>
+            <!-- --------------------------------   删除学生信息------------------------------>
+            <div class="big">
+                <div class="head">
+                    <span><span class="icon-minus"></span>&nbsp;删除学生信息</span><br>
+                </div>
+                <div class="formd">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="id"
+                                   placeholder="请输入学生学号"  style="width: 200px">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">  确认
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-default">删除</button>
+                    </form>
+                </div>
             </div>
-            <button type="submit" class="btn btn-default">删除</button>
-        </form>
-        </div>
-    </div>
-    <!-- --------------------------------   修改学生信息------------------------------>
-    <div class="big">
-        <div class="head">
-        <span><span class="icon-wrench"></span>&nbsp;修改学生信息</span><br>
-        </div>
-        <div class="formd">
-        <form class="form-inline" role="form">
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="name"
-                       placeholder="请输入学生姓名">
+            <!-- --------------------------------   修改学生信息------------------------------>
+            <div class="big">
+                <div class="head">
+                    <span><span class="icon-wrench"></span>&nbsp;修改学生信息</span><br>
+                </div>
+                <div class="formd">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="name"
+                                   placeholder="请输入课程名称"  style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="name"
+                                   placeholder="请输入学生姓名" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="id"
+                                   placeholder="请输入学生学号" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="pw"
+                                   placeholder="请输入学生密码" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="major"
+                                   placeholder="请输入专业" style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="class"
+                                   placeholder="请输入班级" style="width: 200px">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">  确认
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-default">修改</button>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="id"
-                       placeholder="请输入学生学号">
+            <!-- --------------------------------   查询学生信息------------------------------>
+            <div class="big">
+                <div class="head">
+                    <span><span class="icon-binoculars"></span>&nbsp;查询学生信息</span><br>
+                </div>
+                <div class="formd">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="id"
+                                   placeholder="请输入学生学号"  style="width: 200px">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">  确认
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-default">查询</button>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="pw"
-                       placeholder="请输入学生密码">
+            <!-- --------------------------------   批量导入学生信息------------------------------>
+            <div class="big">
+                <div class="head">
+                    <span><span class="icon-folder-upload"></span>&nbsp;批量导入学生信息</span><br>
+                </div>
+                <div class="formd">
+                    <form class="form-inline" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="name">名称</label>
+                            <input type="text" class="form-control" id="name"
+                                   placeholder="请输入名称"  style="width: 200px">
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="inputfile">文件输入</label>
+                            <a href="javascript:;" class="select_file" style="margin-right:200px;padding: 4px 8px ;height: 20px;line-height: 20px;position: relative;border: 1px solid #999;text-decoration: none;color:#666">选择文件
+                                <input type="file" id="inputfile"  multiple="multiple"  style="position:absolute;overflow: hidden;top:0;opacity: 0">
+                            </a>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">  确认
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-default">导入</button>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="major"
-                       placeholder="请输入专业">
-            </div>
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="class"
-                       placeholder="请输入班级">
-            </div>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox">  确认
-                </label>
-            </div>
-            <button type="submit" class="btn btn-default">修改</button>
-        </form>
-        </div>
-    </div>
-    <!-- --------------------------------   查询学生信息------------------------------>
-    <div class="big">
-        <div class="head">
-        <span><span class="icon-binoculars"></span>&nbsp;查询学生信息</span><br>
-        </div>
-        <div class="formd">
-        <form class="form-inline" role="form">
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="id"
-                       placeholder="请输入学生学号">
-            </div>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox">  确认
-                </label>
-            </div>
-            <button type="submit" class="btn btn-default">查询</button>
-        </form>
-        </div>
-    </div>
-    <!-- --------------------------------   批量导入学生信息------------------------------>
-    <div class="big">
-        <div class="head">
-        <span><span class="icon-folder-upload"></span>&nbsp;批量导入学生信息</span><br>
-        </div>
-        <div class="formd">
-        <form class="form-inline" role="form">
-            <div class="form-group">
-                <label class="sr-only" for="name">名称</label>
-                <input type="text" class="form-control" id="name"
-                       placeholder="请输入名称">
-            </div>
-            <div class="form-group">
-                <label class="sr-only" for="inputfile">文件输入</label>
-                <input type="file" id="inputfile">
-            </div>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox">  确认
-                </label>
-            </div>
-            <button type="submit" class="btn btn-default">导入</button>
-        </form>
-        </div>
-    </div>
 
 
 
+        </div>
+    </div>
 </div>
-
 <!--</div>-->
-
 <footer id="fh5co-footer">
     <div class="container">
+
         <div class="row row-bottom-padded-md">
             <div class="col-md-3 col-sm-6 col-xs-12 animate-box">
                 <div class="fh5co-footer-widget">

@@ -15,6 +15,8 @@
         <!-- 搜索框的查找图标 -->
         <link rel="stylesheet" href="css/style_search.css">
         <link rel="stylesheet" href="css/style2.css">
+    <!--    水纹按钮动画-->
+    <script src="js/prefixfree.min_animated_button.js"></script>
         <!--[if IE]鼠标动画-->
         <script src="js/html5.js"></script>
     </head>
@@ -37,23 +39,21 @@
 
 <nav class="navbar-default" role="navigation" style="background: #9d6b2e;opacity: 0.7">
     <div class="container-fluid">
-<!--        <div class="navbar-header" style="background: #152620;opacity: 0.6">-->
-<!--            <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a>-->
-<!--        </div>-->
+        <div class="navbar-header" style="background: #152620;opacity: 0.6">
+            <a class="navbar-brand" href="Stu_my_schedule.html" style="color:white">&nbsp;&nbsp;&nbsp;课表&nbsp;&nbsp;&nbsp;</a>
+        </div>
         <div>
             <ul class="nav navbar-nav" style="background: #152620;opacity: 0.6">
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理教师&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理课程&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        &nbsp;&nbsp;&nbsp;管理其他&nbsp;&nbsp;&nbsp;
-                        <b class="caret"></b>
+                <li class="dropdown"><a href="Stu_select_sourses.html" style="color:white">&nbsp;&nbsp;&nbsp;选课&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="Stu_my_grade.html" style="background: #152620;color:white">&nbsp;&nbsp;&nbsp;成绩&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown" style="background: #152620;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:white">
+                        &nbsp;&nbsp;&nbsp;查看已选&nbsp;&nbsp;&nbsp;<b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">修改选课时间</a></li>
+                        <li><a href="Stu_required_selected.html">必修</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">修改录入成绩时间</a></li>
+                        <li><a href="Stu_elective_selected.html">选修</a></li>
                     </ul>
                 </li>
             </ul>
@@ -99,7 +99,10 @@
         <div class="meassage_xm"></div>
         <div class="meassage_xm"></div>
 
-        <button class="return"><a href="login.html">返回</a></button>
+<!--        <button class="return"><a href="login.html">返回</a></button>-->
+        <button class="return  material-design" data-color="#ffffff" onclick="window.location='login.html'">返回</button>
+        <script src="js/index_animated_button.js"></script>
+        <!--        <button class="btn btn-round color-2 material-design" data-color="#ffffff">返回</button>-->
 
     </div>
 

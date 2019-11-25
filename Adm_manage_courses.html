@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/style_Adm_manage.css">
     <link rel="stylesheet" href="css/style2.css">
     <!--[if IE]鼠标动画-->
-    <!--    <script src="js/html5.js"></script>-->
+        <script src="js/html5.js"></script>
     <!--[endif]-->
 </head>
 <body>
@@ -38,24 +38,25 @@
 
 
 <nav class="navbar-default" role="navigation" style="background: #9d6b2e;opacity: 0.7">
+
     <div class="container-fluid">
         <!--        <div class="navbar-header" style="background: #152620;opacity: 0.6">-->
         <!--            <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a>-->
         <!--        </div>-->
         <div>
             <ul class="nav navbar-nav" style="background: #152620;opacity: 0.6">
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理教师&nbsp;&nbsp;&nbsp;</a></li>
-                <li class="dropdown"><a href="#">&nbsp;&nbsp;&nbsp;管理课程&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_students.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_teachers.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理教师&nbsp;&nbsp;&nbsp;</a></li>
+                <li class="dropdown"><a href="Adm_manage_courses.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理课程&nbsp;&nbsp;&nbsp;</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"  style="color:white">
                         &nbsp;&nbsp;&nbsp;管理其他&nbsp;&nbsp;&nbsp;
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">修改选课时间</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">修改录入成绩时间</a></li>
+                        <li><a href="#"  style="color:black">修改选课时间</a></li>
+                        <li class="divider" ></li>
+                        <li ><a href="#"  style="color:balck;">修改录入成绩时间</a></li>
                     </ul>
                 </li>
             </ul>
@@ -69,6 +70,9 @@
     <a href="#return_button_top">
         <img src="images/codingmonkey.png" class="codingmonkey"> </a>
 </div>
+<div class="body_container1">
+<div class="body_background3">
+<div style="font-size: 40px;margin: auto;padding-top: 40px;padding-left: 20px;color: #5a1216">管理课程</div>
 <div class="manage—stu">
 
     <!-- --------------------------------   添加课程信息------------------------------>
@@ -81,32 +85,32 @@
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="name"
-                           placeholder="请输入课程名称">
+                           placeholder="请输入课程名称" style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="id"
-                           placeholder="请输入课程号">
+                           placeholder="请输入课程号" style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="pw"
-                           placeholder="请输入上课时间">
+                           placeholder="请输入上课时间" style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="major"
-                           placeholder="请输入上课地点">
+                           placeholder="请输入上课地点" style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="class"
-                           placeholder="请输入授课教师">
+                           placeholder="请输入授课教师" style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="class"
-                           placeholder="请输入课程容量">
+                           placeholder="请输入课程容量" style="width: 200px">
                 </div>
                 <div class="checkbox">
                     <label>
@@ -118,7 +122,7 @@
         </div>
 
     </div>
-    <!-- --------------------------------   删除学生信息------------------------------>
+    <!-- --------------------------------   删除课程信息------------------------------>
     <div class="big">
         <div class="head">
             <span><span class="icon-minus"></span>&nbsp;删除课程信息</span><br>
@@ -128,7 +132,7 @@
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="id"
-                           placeholder="请输入课程号">
+                           placeholder="请输入课程号"  style="width: 200px">
                 </div>
                 <div class="checkbox">
                     <label>
@@ -149,33 +153,33 @@
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="name"
-                           placeholder="请输入课程名称">
+                           placeholder="请输入课程名称"  style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="id"
-                           placeholder="请输入课程号">
+                           placeholder="请输入课程号"  style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="pw"
-                           placeholder="请输入上课时间">
+                           placeholder="请输入上课时间"  style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="major"
-                           placeholder="请输入上课地点">
+                           placeholder="请输入上课地点"  style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="class"
-                           placeholder="请输入授课教师">
+                           placeholder="请输入授课教师"  style="width: 200px">
                 </div>
 
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="class"
-                           placeholder="请输入课程容量">
+                           placeholder="请输入课程容量"  style="width: 200px">
                 </div>
                 <div class="checkbox">
                     <label>
@@ -186,17 +190,17 @@
             </form>
         </div>
     </div>
-    <!-- --------------------------------   查询学生信息------------------------------>
+    <!-- --------------------------------   查询课程信息------------------------------>
     <div class="big">
         <div class="head">
-            <span><span class="icon-binoculars"></span>&nbsp;查询学生信息</span><br>
+            <span><span class="icon-binoculars"></span>&nbsp;查询课程信息</span><br>
         </div>
         <div class="formd">
             <form class="form-inline" role="form">
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="id"
-                           placeholder="请输入课程号">
+                           placeholder="请输入课程号"  style="width: 200px">
                 </div>
                 <div class="checkbox">
                     <label>
@@ -210,18 +214,20 @@
     <!-- --------------------------------   批量导入课程信息------------------------------>
     <div class="big">
         <div class="head">
-            <span><span class="icon-folder-upload"></span>&nbsp;批量导入学生信息</span><br>
+            <span><span class="icon-folder-upload"></span>&nbsp;批量导入课程信息</span><br>
         </div>
         <div class="formd">
             <form class="form-inline" role="form">
                 <div class="form-group">
                     <label class="sr-only" for="name">名称</label>
                     <input type="text" class="form-control" id="name"
-                           placeholder="请输入名称">
+                           placeholder="请输入名称"  style="width: 200px">
                 </div>
                 <div class="form-group">
                     <label class="sr-only" for="inputfile">文件输入</label>
-                    <input type="file" id="inputfile">
+                    <a href="javascript:;" class="select_file" style="margin-right:200px;padding: 4px 8px ;height: 20px;line-height: 20px;position: relative;border: 1px solid #999;text-decoration: none;color:#666">选择文件
+                    <input type="file" id="inputfile"  multiple="multiple"  style="position:absolute;overflow: hidden;top:0;opacity: 0">
+                    </a>
                 </div>
                 <div class="checkbox">
                     <label>
@@ -236,11 +242,14 @@
 
 
 </div>
-
+</div>
+</div>
 <!--</div>-->
-
 <footer id="fh5co-footer">
+<!--    <canvas id="demo-canvas" style="position:absolute"></canvas>-->
+
     <div class="container">
+
         <div class="row row-bottom-padded-md">
             <div class="col-md-3 col-sm-6 col-xs-12 animate-box">
                 <div class="fh5co-footer-widget">
@@ -290,8 +299,7 @@
     </div>
 </footer>
 
-</div>
-鼠标滑动
+<!--鼠标滑动-->
 <script src="js/TweenLite.min.js"></script>
 <script src="js/EasePack.min.js"></script>
 <script src="js/rAF.js"></script>

@@ -11,7 +11,7 @@
 	<meta name="description" content="a educational management system" />
 	<meta name="author" content="zhanjiahui" />
 	<meta name="copyright" content="Calabash Brothers" />
-
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
 	<!-- Animate.css 滑动-->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts 图标-->
@@ -20,6 +20,11 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 
 	<link rel="stylesheet" href="css/style.css">
+		<!--[if IE]鼠标动画-->
+		<script src="js/html5.js"></script>
+		<!--[endif]-->
+		<!--    水纹按钮动画-->
+		<script src="js/prefixfree.min_animated_button.js"></script>
 
 	</head>
 
@@ -46,6 +51,7 @@
 
 			
 <div class="fh5co-overlay"></div>
+			<canvas id="demo-canvas" style="position:absolute"></canvas>
 			<div class="container">
 				<div class="fh5co-intro no-js-fullheight">
 					<div class="fh5co-intro-text">
@@ -53,12 +59,19 @@
 							<form action="" method="get" id="login">
 							  <h3 class="animate-box" style="color:black">用户名：<input type="text" name=name1 style="color:black;opacity: 0.3" sutofocus/></h3>
 								<h3 class="animate-box" style="color:black">密&emsp;码：<input type="password" name=pw1 style="color:black;opacity: 0.3" sutofocus/></h3>
-								<h4 class="animate-box"><input type="submit" style="color:black" value="登陆" />&nbsp;&emsp;<a href="index.html"><input type="button" style="color:black" value="返回"/></a></h4>	
+								<h4 class="animate-box">
+									<input type="submit" style="color:rgba(255,255,255,0.8);width: 150px;height: 50px;border-radius: 30px;border: none; background: rgba(66,57,40,0.5);" value="登陆" />&nbsp;
+									&emsp;<a href="index.html">
+									<input type="button"style="color:rgba(255,255,255,0.8);width: 150px;height: 50px;border-radius: 30px;border: none; background: rgba(66,57,40,0.5);"" value="返回"/></a></h4>
+<!--								&lt;!&ndash;  js文件和button必须放在一起&ndash;&gt;-->
+<!--								<button class="return  material-design" data-color="#ffffff">登录</button>-->
+<!--								<button class="return  material-design" data-color="#ffffff" onclick="window.location='index.html'">返回</button>-->
+<!--								<script src="js/index_animated_button.js"></script>-->
 							</form>						
 						</div>
 					</div>
 				</div>
-			</div>-->
+			</div>
 
 		</section>
 		<!-- END #fh5co-hero -->
@@ -116,7 +129,11 @@
 		</footer>
 
 	</div>
-
+	<script src="js/TweenLite.min.js"></script>
+	<script src="js/EasePack.min.js"></script>
+	<script src="js/rAF.js"></script>
+	<script src="js/demo-1.js"></script>
+	<!-- 代码部分end -->
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->

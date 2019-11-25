@@ -26,6 +26,7 @@
     background: url("../images/index.jpg");
     /*opacity: 0.6;*/
 }
+
 .body_background
 {
     background: rgba(255,255,255,0.3);
@@ -169,10 +170,26 @@
 }
 .datelisthead
 {
+    text-align: center;
     background: rgba(204,204,204,0.8);
+}
+.datelisthead td
+{
+    width: 200px;
+    height: 70px;
+
+}
+.click_class:link
+{
+    color: #876f69;
+}
+.click_class:hover
+{
+    color: #ac2925;
 }
 .alt
 {
+    text-align: center;
     background: rgba(249,246,240,0.5);
 }
 .alt :hover
@@ -273,11 +290,21 @@
 {
 }
 
-.return_top
+/*.return_top*/
+/*{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    margin-left: 95%;*/
+/*    margin-top: 616px;*/
+/*    position: fixed;*/
+/*}*/
+.select_file:hover
 {
-    width: 60px;
-    height: 60px;
-    margin-left: 95%;
-    margin-top: 616px;
-    position: fixed;
+    background:#876f69;
+}
+.Adm_title
+{
+    margin: auto;
+    color:#9d6b2e;
+    font-size: 40px;
 }
