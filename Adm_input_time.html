@@ -39,9 +39,9 @@
 <nav class="navbar-default" role="navigation" style="background: #9d6b2e;opacity: 0.7">
 
     <div class="container-fluid">
-        <!--        <div class="navbar-header" style="background: #152620;opacity: 0.6">-->
-        <!--            <a class="navbar-brand" href="#">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a>-->
-        <!--        </div>-->
+        <div class="navbar-header" style="background: #152620;opacity: 0.6">
+            <a class="navbar-brand" href="welcome_Adm.html" style="color:white">&nbsp;&nbsp;&nbsp;返回首页&nbsp;&nbsp;</a>
+        </div>
         <div>
             <ul class="nav navbar-nav" style="background: #152620;opacity: 0.6">
                 <li class="dropdown"><a href="Adm_manage_students.html"  style="color:white">&nbsp;&nbsp;&nbsp;管理学生&nbsp;&nbsp;&nbsp;</a></li>
@@ -53,12 +53,15 @@
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#"  style="color:black">修改选课时间</a></li>
+                        <li><a href="Adm_select_time.html"  style="color:black">修改选课时间</a></li>
                         <li class="divider" ></li>
-                        <li ><a href="#"  style="color:balck;">修改录入成绩时间</a></li>
+                        <li ><a href="Adm_input_time.html"  style="color:black">修改录入成绩时间</a></li>
                     </ul>
                 </li>
             </ul>
+        </div>
+        <div class="navbar-header" style="background: #152620;opacity: 0.6">
+            <a class="navbar-brand" href="login.html" style="color:white">&nbsp;&nbsp;&nbsp;退出登录&nbsp;&nbsp;</a>
         </div>
     </div>
 </nav>
@@ -77,9 +80,9 @@
                 <div class="head">
                     <span><span class="icon-wrench"></span>&nbsp;修改录入成绩时间</span><br>
                 </div>
-                <div class="formd">
-
-                    <div class="input-group">
+                <div class="formd1">
+                    <form>
+                    <div class="input-group" style="margin-bottom: 30px">
                         <span class="input-group-addon">time</span>
                         <input type="text" class="form-control" id="name"
                                placeholder="请输入开始时间"  style="width: 400px">

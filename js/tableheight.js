@@ -1,15 +1,17 @@
 
-function table_height()
+function note_height()
 {
-    var parent=document.getElementsByTagName("tr");
+    var parent=document.getElementsByTagName("div");
     // alert(parent[parent.length-1].offsetTop);
-    var bg=document.getElementsByClassName("body_container1");
-    if (parent[parent.length-1].offsetTop<1100)
-    {
-        console.log("???????");
+    alert(parent[parent.length-1].offsetTop);
+    var bg=document.getElementsByClassName("body_container2");
+    // if (parent[parent.length-1].offsetTop<1100)
+    // {
+    //     console.log("???????");
+    //
+    //     bg.style.height='1100px';
+    // }
+    // else
 
-        bg.style.height='1100px';
-    }
-    else
-        bg.setAttribute('height','parent[parent.length-1].offsetTop');
+        bg.setAttribute('height','parent[parent.length-1].offsetTop',0);
 }

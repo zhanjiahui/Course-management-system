@@ -390,9 +390,9 @@
 
 .remind_adm{
     float: left;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 10%;
-
+    /*padding-bottom: 500px;*/
     line-height: 80px;
     font-size: 40px;
     color: #ffffff;
@@ -426,9 +426,15 @@
     font-size: 30px;
     color:#5a1216;
 }
-.formd
+.formd1
 {
+    /*line-height: 40px;*/
     margin-left: 30%;
 
     margin-top: 5%;
+}
+.formd
+{
+    margin-left: 5%;
+
 }
